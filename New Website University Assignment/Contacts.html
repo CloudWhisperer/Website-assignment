@@ -1,0 +1,121 @@
+<!--The beggining stuff-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+<title>Shuaib's Website</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<!--Header-->
+<div class="header">
+  <h1 id="top">Contacts, There's a new song for you at the bottom!</h1>
+</div>
+
+<div style="color: red; float: right">
+<a href="Index.html">Home</a> |  <a href="contacts.html">Contact Me</a> | <a href="Refrences.html">Refrences and Citations</a> |
+</div>
+
+<!--Summary-->
+<div class="content">
+  <div style="color: red; background-color: transparent;">
+  <h1>You can find me with the following links below</h1>
+  <p><a href="https://www.instagram.com/_shua1b_/"><img src="Images/instagram.png" style="width:100px;height:100px;"></a></p>
+  <p><img src="Images/Discordicon.png" style="width:100px;height:100px;">
+
+  <!-- The text field -->
+<input type="text" value="⛈ CloudWhisperer ⛈#1303" id="myInput">
+
+<!-- The button used to copy the text -->
+<button onclick="myFunction()">Copy Discord Username</button>
+
+<script type="text/javascript">
+function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById("myInput");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
+}
+</script>
+
+
+    <p><a href="https://steamcommunity.com/id/Cloudi0/"><img src="Images/Steamicon.png" style="width:100px;height:100px;"></a></p>
+
+<p><img src="Images/gmail.png" style="width:100px;height:100px;"></a></p>
+
+<button onclick="myFunction()">Click To reveal Email</button>
+
+<div id="myDIV">
+  Email = shuaibahmed122@gmail.com
+</div>
+
+<script type="text/javascript">
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+</div>
+
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background: #8a0303;
+   color: black;
+   text-align: left;
+}
+</style>
+<body>
+
+  </div>
+
+
+<!--Footer-->
+<div class="footer">
+<p> <h3> - - - -
+  <audio id="myAudio">
+    <source src="Sounds/elevator music.mp3" type="audio/mp3">
+  </audio>
+Now playing: Elevator Music By Defphonix
+  <button class="button button1" onclick="playAudio()" type="button">Play Audio</button>
+  <button class="button button2" onclick="pauseAudio()" type="button">Pause Audio</button>
+
+  <script>
+  var x = document.getElementById("myAudio");
+
+  function playAudio() {
+    x.play();
+  }
+
+  function pauseAudio() {
+    x.pause();
+  }
+  </script>
+
+  | Shuaib Ahmed © Copyright 2020 - - - </p> </h3>
+
+</div>
+
+<!--Ending stuff-->
+</body>
+</html>
