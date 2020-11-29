@@ -8,6 +8,21 @@
   cursor: pointer;
 }
 
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background: #8a0303;
+   color: black;
+   text-align: left;
+}
+.citations {
+  border: 2px solid red;
+  padding: 20px;
+  background-color: Black;
+}
+
 a:link {
   color: red;
   background-color: transparent;
